@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Aplica la fuente Arial o, si no está disponible, una fuente sans-serif */
+}
+
+.contenedornav{
+    width: 100%;
+}
+nav{
+    background-color: rgb(44, 110, 110);
+    padding: 0.3em 0;
+}
+
+nav .col1{
+    width: 65%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    
+}
+nav .col2{
+    vertical-align: middle;
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+}
+
+nav ul{
+    padding: 0.8em 0;
+    width: 100%;
+}
+.col2 a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: black solid;
+    background-color: black;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: right;
+
+}
+nav ul li{
+    display: inline-block;
+    color: white;
+    margin-left: 2.2em;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul i{
+    border: black solid;
+    background-color: black;
+    padding: 0.3em;
+    
+}
+
+
+.col2 p{
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-right: 1em;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.titulo{
+    width: 60%;
+    margin-left: 3em;
+    line-height: 5em;
+    padding-bottom: 2em;
+    padding-top: 10em;
+}
+
+h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 5em;
+}
+
+#seccion1{
+    background-color:rgb(25, 194, 185);
+}
+
+.row{
+    display: inline-block;
+    padding: 4em 0;
+    width: 100%;
+}
+
+.i1{
+    font-size: 6em;
+    color: white;
+}
+
+.i2{
+    font-size: 7em;
+    color: white;
+}
+
+.i3{
+    font-size: 8em;
+    color: white;
+}
+
+.i4{
+    font-size: 5em;
+    color: white;
+}
+
+.i5{
+    font-size: 5em;
+    color: white;
+}
+
+.i6{
+    font-size: 3em;
+    color: white;
+}
+
+#seccion2 i{
+    width: 15%;
+}
+
+.row{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.colu1{
+    display: inline-block;
+    width: 69%;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+
+.colu1 ul li{
+    display: inline-block;
+    padding: 0 1.2em;
+}
+
+.colu1 li{
+    text-align: left;
+}
+
+.colu2{
+    display: inline-block;
+    width: 26%;
+    vertical-align: top;
+    padding-left: 1em;
+    border-left: 0.3em white solid;
+}
+
+.colu2 p{
+    color: white;
+    vertical-align: top;
+    line-height: 1.5em;
+}
+
+#seccion2{
+    background-color: black;
+}
+
+
+.row2{
+    width: 100%;
+    display: inline-block;
+}
+.colum1{
+    width: 47%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 1.5em;
+}
+
+.verticalline{
+    display: inline-block;
+    width: 1px;
+    height: 600px;
+    background-color: black;
+    vertical-align: top;
+    text-align: center;
+}
+
+.colum2{
+    text-align: left;
+    width: 47%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1.5em;
+}
+
+.minicaja1, .minicaja2{
+    border-bottom: 1px rgba(0, 0, 0, 0.61) solid;
+    width: 100%;
+    padding: 1em 0;
+}
+
+.p1{
+    text-align: left;
+    display: inline-block;
+    width: 48%;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.p2{
+    text-align: right;
+    display: inline-block;
+    width: 48%;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: cyan;
+}
+
+h4{
+    color: cyan;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.texto{
+    line-height: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+.minitexto{
+    color: darkgray;
+}
+
+.miniminicaja1{
+    width: 75%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.miniminicaja2{
+    width: 22%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.colum1 i{
+    font-size: 4em;
+    border-radius: 50%;
+    color: white;
+    background-color: gray;
+    padding: 0.1em;
+    margin-left: 0.5em;
+}
+
+#seccion3{
+    padding: 1em;
+}
+
+h3{
+    line-height: 2em;
+    font-size: 1.6em;
+    padding-bottom: 1em;
+}
+
+.titulo2{
+    font-size: 1.4em;
+}
+
+.textosemifinal{
+    color: cyan;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 0.3em;
+}
+
+.textofinal{
+    color: cyan;
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 2em;
+}
+
+.botonorange{
+    color: white;
+    background-color: orangered;
+    padding: 1em;
+    text-decoration:none;
+}
+
+.botonorange i{
+    color: white;
+    margin-right: 0.5em;
+    font-size: 1.4em;
+    vertical-align: middle;
+}
+
+/*TAMAÑO TABLETA*/
+@media screen and (min-width:600px) and (max-width:901px)  {
+
+    .colum1, .colum2{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .colum2{
+        margin-top: 1em;
+    }
+    .verticalline{
+        display: none;
+    }
+    
+    .colu1{
+        width: 100%;
+    }
+
+    .colu2{
+        width: 70%;
+        border-left: none;
+    }
+
+    .i1{
+        font-size: 3em;
+        color: white;
+    }
+    
+    .i2{
+        font-size: 3em;
+        color: white;
+    }
+    
+    .i3{
+        font-size: 4em;
+        color: white;
+    }
+    
+    .i4{
+        font-size: 3em;
+        color: white;
+    }
+    
+    .i5{
+        font-size: 2.5em;
+        color: white;
+    }
+    
+    .i6{
+        font-size: 2em;
+        color: white;
+    }
+    
+    #seccion2 ul li{
+        padding: 0 2em;
+        width: 2%;
+        text-align: center;
+    }
+
+    #seccion2 i{
+        width: 100%;
+    }
+
+
+    .colu1, .colu2{
+        padding: 1em 0;
+    }
+
+    .titulo{
+        font-size: 0.5em;
+        width: 70%;
+    }
+
+    #seccion2 .row{
+        padding: 2em 0;
+    }
+
+    .contenedornav .col1{
+        width: 54%;
+    }
+
+    .contenedornav .col2{
+        width: 45%;
+    }
+
+    .col2 p{
+        font-size: 1.4em;
+    }
+
+    .col2 a{
+        font-size: 0.9em
+    }
+
+    nav ul{
+        width: 100%;
+    }
+
+    nav ul li{
+        margin-left: 0.8em;
+    }
+
+    nav ul li a{
+        font-size: 1em;
+    }
+}
+
+/*PANTALLA MOVIL*/
+@media screen and (max-width:601px){
+    .colum1, .colum2{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #seccion3{
+        padding: 0.5em;
+    }
+
+
+
+    .colum2{
+        margin-top: 1em;
+    }
+    .verticalline{
+        display: none;
+    }
+    
+    .colu1{
+        width: 100%;
+    }
+
+    .colu2{
+        width: 70%;
+        border-left: none;
+    }
+
+    .i1{
+        font-size: 3em;
+        color: white;
+    }
+    
+    .i2{
+        font-size: 3em;
+        color: white;
+    }
+    
+    .i3{
+        font-size: 4em;
+        color: white;
+    }
+    
+    .i4{
+        font-size: 3em;
+        color: white;
+    }
+    
+    .i5{
+        font-size: 2.5em;
+        color: white;
+    }
+    
+    .i6{
+        font-size: 2em;
+        color: white;
+    }
+    
+    #seccion2 ul li{
+        padding: 0 2em;
+        width: 2%;
+        text-align: center;
+    }
+
+    #seccion2 i{
+        width: 100%;
+    }
+
+    .colu1{
+        display: none;
+    }
+
+    .colu1, .colu2{
+        padding: 1em 0;
+    }
+
+    .titulo{
+        font-size: 0.5em;
+        width: 70%;
+    }
+
+    #seccion2 .row{
+        padding: 2em 0;
+    }
+
+    .contenedornav .col1{
+        width: 100%;
+        vertical-align: bottom;
+        text-align: center;
+        margin-bottom: -3em;
+        margin-top: 4em;
+    }
+
+    .contenedornav .col2{
+        width: 100%;
+        vertical-align: top;
+        text-align: center;
+        margin-top: -3em;
+        margin-bottom: 4em;
+    }
+
+    .col2 p{
+        font-size: 1.6em;
+    }
+
+    .col2 a{
+        font-size: 1.2em
+    }
+
+    nav ul{
+        width: 100%;
+    }
+
+    nav ul li{
+        margin-left: 0;
+    }
+
+    nav ul li a{
+        font-size: 1em;
+        padding: 0 1.2em;
+    }
+
+    .miniminicaja1{
+        width: 80%;
+    }
+
+    .colum1 i{
+        margin-left: 0;
+    }
+
+    .miniminicaja2{
+        width: 18%;
+    }
+
+    .p1{
+        width: 100%;
+    }
+    .p2{
+        width: 100%;
+    }
+}
+
+
+
